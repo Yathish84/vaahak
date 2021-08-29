@@ -1,0 +1,14 @@
+.final__button{
+    width: 500px;
+    padding:15px 0;
+    margin: auto;
+}
+.final__btn{
+    width:100%;
+    background-color:blue;
+    color:white;
+    outline: none;
+    border: none;
+    padding:15px 0;
+    border-radius:2px;
+}

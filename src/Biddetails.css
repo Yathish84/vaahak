@@ -1,0 +1,92 @@
+.bid,.verify{
+    width: 500px;
+    margin: auto;
+   
+}
+.bid__bottom{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 15px 0;
+}
+.bid__title{
+    color:grey;
+    font-size: 13px;
+
+}
+.bid__details>*{
+    padding: 5px 0;
+}
+.bid__cost{
+    font-size: 30px;
+}
+.bid__fix{
+    font-size:11px;
+    color: grey;
+}
+.verify__top{
+    width: 80%;
+}
+.verify__text{
+    color: rgb(54, 54, 54);
+    font-size:13px;
+    font-weight:200
+}
+.verify__icon,.verify__edit{
+    color:blue;
+    cursor: pointer;
+    
+}
+.verify__icon{
+    transform: scale(0.8);
+    transform: translateY(2px);
+    
+}
+.verify__input{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+   
+   
+}
+
+.verify__otptext{
+    width: 250px;
+    height: 60px;
+    font-size:30px;
+    padding-left:20px;
+    letter-spacing:45px;
+    outline: none;
+
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.verify__buttons{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 20px 0;
+   
+}
+
+.verify__btn{
+    padding:10px 0;
+    cursor: pointer;
+}
+.white{
+    background-color: white;
+    color:blue;
+    outline: none;
+    border: none;
+}
+.blue{
+    background-color:blue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius:2px;
+}
