@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import "./Biddetails.css"
 import EditIcon from '@material-ui/icons/Edit';
 import { useHistory  } from 'react-router-dom'
